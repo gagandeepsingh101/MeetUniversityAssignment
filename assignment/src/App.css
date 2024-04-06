@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+flex-direction: column;
+gap: 30px 0px;
+  align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.box {
+	border: 2px solid black;
+	width: 30%;
+	height: 30%;
+}
+#boxes-area {
+	width: 25vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 10px 0px;
+}
